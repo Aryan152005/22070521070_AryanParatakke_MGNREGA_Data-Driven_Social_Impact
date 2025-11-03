@@ -1,0 +1,13 @@
+{
+  "Best_ML_Optimized": {
+    "model": "LightGBM",
+    "RMSE": 2947.4527119011004,
+    "MAE": 1546.225950312742,
+    "R2": 0.9988404690902929
+  },
+  "Best_DL_Optimized": {
+    "model": "MLP_wide",
+    "RMSE": 957.6947021484375,
+    "MAE": 504.5887145996094
+  }
+}

@@ -1,25 +1,16 @@
 # Git LFS for large assets
 
 # Data files
-ML_CA1/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
-ML_CA1/data/**/*.json filter=lfs diff=lfs merge=lfs -text
-# Reports (documents)
-ML_CA1/reports/**/*.pdf filter=lfs diff=lfs merge=lfs -text
-ML_CA1/reports/**/*.docx filter=lfs diff=lfs merge=lfs -text
-ML_CA1/reports/**/*.pptx filter=lfs diff=lfs merge=lfs -text
-# Figures & images
-ML_CA1/**/figures/**/*.png filter=lfs diff=lfs merge=lfs -text
-ML_CA1/**/figures/**/*.jpg filter=lfs diff=lfs merge=lfs -text
-ML_CA1/**/figures/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
-ML_CA1/reports/assets/readme/*.png filter=lfs diff=lfs merge=lfs -text
-# Optional: large CSV results in artifacts
-ML_CA1/artifacts/**/*.csv filter=lfs diff=lfs merge=lfs -text
 MiniProject/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
 MiniProject/data/**/*.json filter=lfs diff=lfs merge=lfs -text
+# Reports (documents)
 MiniProject/reports/**/*.pdf filter=lfs diff=lfs merge=lfs -text
 MiniProject/reports/**/*.docx filter=lfs diff=lfs merge=lfs -text
 MiniProject/reports/**/*.pptx filter=lfs diff=lfs merge=lfs -text
+# Figures & images
 MiniProject/**/figures/**/*.png filter=lfs diff=lfs merge=lfs -text
 MiniProject/**/figures/**/*.jpg filter=lfs diff=lfs merge=lfs -text
 MiniProject/**/figures/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
 MiniProject/reports/assets/readme/*.png filter=lfs diff=lfs merge=lfs -text
+# Optional: large CSV results in artifacts
+MiniProject/artifacts/**/*.csv filter=lfs diff=lfs merge=lfs -text

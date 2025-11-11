@@ -1,5 +1,4 @@
 # Git LFS for large assets
-
 # Data files
 MiniProject/data/**/*.csv filter=lfs diff=lfs merge=lfs -text
 MiniProject/data/**/*.json filter=lfs diff=lfs merge=lfs -text
